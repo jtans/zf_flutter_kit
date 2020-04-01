@@ -1,6 +1,6 @@
 name: zf_flutter_kit
 description: A flutter suite library containing common components for easy use.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/jtans/zf_flutter_kit
 
 environment:
