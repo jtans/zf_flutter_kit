@@ -9,3 +9,4 @@ export 'src/zfslider.dart';
 export 'src/zfweb_widget.dart';
 export 'src/zfdialog.dart';
 export 'src/zfbase_widget.dart';
+export 'src/zfroate.dart';

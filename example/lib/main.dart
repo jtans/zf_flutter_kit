@@ -1,3 +1,4 @@
+import 'package:example/rotate_page.dart';
 import 'package:flutter/material.dart';
 import 'mine_page.dart';
 import 'package:zf_flutter_kit/zf_flutter_kit.dart';
@@ -62,6 +63,12 @@ class _MyHomePageState extends ZFBaseWidgetState {
         ),
         ZFThemeText(
           text: 'Theme Text',
+        ),
+        ZFThemeButton(
+          text: 'Rotate Widget',
+          onPressed: (){
+            Navigator.of(context).zfpush(RotatePage());
+          },
         ),
         _buildDivider('Dialog'),
         ZFButton(
